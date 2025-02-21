@@ -1,0 +1,107 @@
+﻿Rakytník;;;;
+Název nutrientu;Kód EuroFIR;Jednotka;Hodnota;Citace
+Nutrienty základní;;;;
+Energetická hodnota (kJ);ENERC;kJ;340;00012
+Energetická hodnota (kcal);ENERC;kcal;82;00012
+Bílkoviny celkové [NCF:6.25];PROT;g;2.3;00012
+Dusík celkový;NT;g;0.36;00078
+Tuky celkové [FACF:0.800];FAT;g;3.8;00078
+Sacharidy celkové;CHOT;g;11.0;00012
+Sacharidy využitelné;CHO;g;8.1;00012
+Vláknina potravy;FIBT;g;2.9;00078
+Voda celková;WATER;g;82.5;00078
+Ethanol;ALC;g;;
+Popel;ASH;g;0.4;00078
+Vitaminy;;;;
+Vitamin B1 (thiamin);THIA;mg;;
+Vitamin B2 (riboflavin);RIBF;mg;;
+Niacin ekvivalent;NIAEQ;NE;;
+Niacin;NIA;mg;;
+Foláty celkové;FOL;μg;;
+Kyselina pantothenová;PANTAC;mg;;
+Vitamin B6 (pyridoxin);PYRXN;mg;;
+Vitamin B12;VITB12;μg;;
+Vitamin C;VITC;mg;;
+Vitamin A;VITA;RE;;
+Retinol;RETOL;μg;;
+beta-karoten;CARTB;μg;;
+Vitamin D;VITD;μg;;
+Vitamin E;VITE;ATE;;
+alfa - tokoferol;TOCPHA;mg;;
+Minerální látky;;;;
+Sodík;NA;mg;11;00078
+Hořčík;MG;mg;;
+Fosfor;P;mg;;
+Draslík;K;mg;;
+Vápník;CA;mg;;
+Železo;FE;mg;;
+Měď;CU;mg;;
+Zinek;ZN;mg;;
+Selen;SE;μg;;
+Jód;ID;μg;;
+Sůl;NACL;g;0.03;00012
+Cukry, škrob, polyoly, organické kyseliny;;;;
+Cukry celkové;SUGAR;g;4.0;00012
+Fruktosa;FRUS;g;0.1;00078
+Glukosa;GLUS;g;3.0;00078
+Laktosa;LACS;g;0;00000
+Maltosa;MALS;g;0;00078
+Sacharosa;SUCS;g;0;00078
+Škrob;STARCH;g;;
+Organické kyseliny;OA;g;;
+Polyoly;POLY;g;;
+Mastné kyseliny a cholesterol;;;;
+Nasycené mastné kyseliny;FASAT;g;1.10;00012
+C 4:0;F4:0;g;0;00078
+C 6:0;F6:0;g;0;00078
+C 8:0;F8:0;g;0;00078
+C 10:0;F10:0;g;0;00078
+C 12:0;F12:0;g;0;00078
+C 13:0;F13:0;g;0;00078
+C 14:0;F14:0;g;0.01;00078
+C 15:0;F15:0;g;0;00078
+C 16:0;F16:0;g;1.06;00078
+C 17:0;F17:0;g;0;00078
+C 18:0;F18:0;g;0.03;00078
+C 20:0;F20:0;g;0;00078
+C 22:0;F22:0;g;0;00078
+Mononenasycené mastné kyseliny;FAMS;g;1.02;00012
+C 14:1;F14:1CN5;g;0;00078
+C 16:1;F16:1CN7;g;0.74;00078
+C 17:1;F17:1;g;0;00078
+C 18:1, n-9;F18:1CN9;g;0.28;00078
+C 20:1, n-11;F20:1CN11;g;0;00078
+C 22:1, n-9;F22:1CN9;g;0;00078
+Polynenasycené mastné kyseliny;FAPU;g;0.65;00012
+n-6 mastné kyseliny;FACN6;g;0.54;00012
+C 18:2, n-6;F18:2CN6;g;0.54;00078
+C 18:3, n-6;F18:3CN6;g;0;00078
+C 20:4, n-6;F20:4CN6;g;0;00078
+n-3 mastné kyseliny;FACN3;g;0.11;00012
+C 18:3, n-3;F18:3CN3;g;0.11;00078
+C 20:5, n-3 (EPA);F20:5CN3;g;0;00078
+C 22:5, n-3 (DPA);F22:5CN3;g;;
+C 22:6, n-3 (DHA);F22:6CN3;g;0;00078
+Trans- mastné kyseliny;FATRN;g;0;00012
+C 18:1, n-9 trans;F18:1TN9;g;0;00078
+C 18:2, n-6 trans;F18:2 TTN6;g;0;00078
+Cholesterol;CHORL;mg;;
+Aminokyseliny;;;;
+Glycin;GLY;mg;;
+Alanin;ALA;mg;;
+Valin;VAL;mg;;
+Leucin;LEU;mg;;
+Isoleucin;ILE;mg;;
+Serin;SER;mg;;
+Threonin;THR;mg;;
+Lysin;LYS;mg;;
+Asparagová kyselina;ASP;mg;;
+Glutamová kyselina;GLU;mg;;
+Arginin;ARG;mg;;
+Cystein;CYS;mg;;
+Methionin;MET;mg;;
+Fenylalanin;PHE;mg;;
+Tyrosin;TYR;mg;;
+Tryptofan;TRP;mg;;
+Histidin;HIS;mg;;
+Prolin;PRO;mg;;

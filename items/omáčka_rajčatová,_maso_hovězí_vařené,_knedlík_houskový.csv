@@ -1,0 +1,107 @@
+﻿Omáčka rajčatová, maso hovězí vařené, knedlík houskový;;;;
+Název nutrientu;Kód EuroFIR;Jednotka;Hodnota;Citace
+Nutrienty základní;;;;
+Energetická hodnota (kJ);ENERC;kJ;661;00012
+Energetická hodnota (kcal);ENERC;kcal;157;00012
+Bílkoviny celkové [NCF:6.25];PROT;g;9.4;00016, 										00040
+Dusík celkový;NT;g;1.5;00016, 										00040
+Tuky celkové [FACF:0.000];FAT;g;5.7;00016, 										00040
+Sacharidy celkové;CHOT;g;17.7;00016, 										00040
+Sacharidy využitelné;CHO;g;16.5;00016, 										00040
+Vláknina potravy;FIBT;g;1.2;00016, 										00040
+Voda celková;WATER;g;65.8;00016, 										00040
+Ethanol;ALC;g;0;00016, 										00040
+Popel;ASH;g;1.4;00016, 										00040
+Vitaminy;;;;
+Vitamin B1 (thiamin);THIA;mg;0.04;00016, 										00040
+Vitamin B2 (riboflavin);RIBF;mg;0.09;00016, 										00040
+Niacin ekvivalent;NIAEQ;NE;;
+Niacin;NIA;mg;1.3;00016, 										00040
+Foláty celkové;FOL;μg;;
+Kyselina pantothenová;PANTAC;mg;0.26;00016, 										00040
+Vitamin B6 (pyridoxin);PYRXN;mg;0.07;00016, 										00040
+Vitamin B12;VITB12;μg;;
+Vitamin C;VITC;mg;0.2;00016, 										00040
+Vitamin A;VITA;RE;51;00016, 										00040
+Retinol;RETOL;μg;24;00016, 										00040
+beta-karoten;CARTB;μg;321;00016, 										00040
+Vitamin D;VITD;μg;;
+Vitamin E;VITE;ATE;0.30;00016, 										00040
+alfa - tokoferol;TOCPHA;mg;0.30;00016, 										00040
+Minerální látky;;;;
+Sodík;NA;mg;375;00016, 										00040
+Hořčík;MG;mg;12;00016, 										00040
+Fosfor;P;mg;73;00016, 										00040
+Draslík;K;mg;157;00016, 										00040
+Vápník;CA;mg;27;00016, 										00040
+Železo;FE;mg;1.2;00016, 										00040
+Měď;CU;mg;;
+Zinek;ZN;mg;0.41;00016, 										00040
+Selen;SE;μg;;
+Jód;ID;μg;;
+Sůl;NACL;g;0.9;00012
+Cukry, škrob, polyoly, organické kyseliny;;;;
+Cukry celkové;SUGAR;g;2.1;00016, 										00040
+Fruktosa;FRUS;g;;
+Glukosa;GLUS;g;;
+Laktosa;LACS;g;;
+Maltosa;MALS;g;;
+Sacharosa;SUCS;g;;
+Škrob;STARCH;g;;
+Organické kyseliny;OA;g;;
+Polyoly;POLY;g;;
+Mastné kyseliny a cholesterol;;;;
+Nasycené mastné kyseliny;FASAT;g;3.18;00016, 										00040
+C 4:0;F4:0;g;0.06;00016, 										00040
+C 6:0;F6:0;g;0.08;00016, 										00040
+C 8:0;F8:0;g;0.06;00016, 										00040
+C 10:0;F10:0;g;0.13;00016, 										00040
+C 12:0;F12:0;g;0.15;00016, 										00040
+C 13:0;F13:0;g;0;00016, 										00040
+C 14:0;F14:0;g;0.45;00016, 										00040
+C 15:0;F15:0;g;0.05;00016, 										00040
+C 16:0;F16:0;g;1.61;00016, 										00040
+C 17:0;F17:0;g;0.03;00016, 										00040
+C 18:0;F18:0;g;0.55;00016, 										00040
+C 20:0;F20:0;g;0;00016, 										00040
+C 22:0;F22:0;g;0;00016, 										00040
+Mononenasycené mastné kyseliny;FAMS;g;1.90;00016, 										00040
+C 14:1;F14:1CN5;g;0.04;00016, 										00040
+C 16:1;F16:1CN7;g;0.16;00016, 										00040
+C 17:1;F17:1;g;0;00016, 										00040
+C 18:1, n-9;F18:1CN9;g;1.67;00016, 										00040
+C 20:1, n-11;F20:1CN11;g;0.02;00016, 										00040
+C 22:1, n-9;F22:1CN9;g;0;00016, 										00040
+Polynenasycené mastné kyseliny;FAPU;g;0.27;00016, 										00040
+n-6 mastné kyseliny;FACN6;g;0.23;00012
+C 18:2, n-6;F18:2CN6;g;0.23;00016, 										00040
+C 18:3, n-6;F18:3CN6;g;;
+C 20:4, n-6;F20:4CN6;g;;
+n-3 mastné kyseliny;FACN3;g;0.04;00012
+C 18:3, n-3;F18:3CN3;g;0.04;00016, 										00040
+C 20:5, n-3 (EPA);F20:5CN3;g;;
+C 22:5, n-3 (DPA);F22:5CN3;g;;
+C 22:6, n-3 (DHA);F22:6CN3;g;;
+Trans- mastné kyseliny;FATRN;g;0.01;00016, 										00040
+C 18:1, n-9 trans;F18:1TN9;g;0.01;00016, 										00040
+C 18:2, n-6 trans;F18:2 TTN6;g;0;00016, 										00040
+Cholesterol;CHORL;mg;28;00016, 										00040
+Aminokyseliny;;;;
+Glycin;GLY;mg;473;00016, 										00040
+Alanin;ALA;mg;520;00016, 										00040
+Valin;VAL;mg;485;00016, 										00040
+Leucin;LEU;mg;790;00016, 										00040
+Isoleucin;ILE;mg;441;00016, 										00040
+Serin;SER;mg;415;00016, 										00040
+Threonin;THR;mg;410;00016, 										00040
+Lysin;LYS;mg;554;00016, 										00040
+Asparagová kyselina;ASP;mg;790;00016, 										00040
+Glutamová kyselina;GLU;mg;2035;00016, 										00040
+Arginin;ARG;mg;564;00016, 										00040
+Cystein;CYS;mg;180;00016, 										00040
+Methionin;MET;mg;230;00016, 										00040
+Fenylalanin;PHE;mg;439;00016, 										00040
+Tyrosin;TYR;mg;369;00016, 										00040
+Tryptofan;TRP;mg;;
+Histidin;HIS;mg;291;00016, 										00040
+Prolin;PRO;mg;634;00016, 										00040
