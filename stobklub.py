@@ -66,7 +66,7 @@ def get_one_item(url):
         # Append the row of extracted values
         writer.writerow(values)
 
-    print(f"Data of {foodName} from {url.number} appended to stobklub_combined.csv ✅")
+    print(f"Data of {foodName} from {url} appended to stobklub_combined.csv ✅")
 
 #(589357, 764630)
 
