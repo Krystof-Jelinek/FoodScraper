@@ -2,7 +2,11 @@ import requests
 from bs4 import BeautifulSoup
 import csv
 import os
+import threading
 import re
+from concurrent.futures import ThreadPoolExecutor
+
+file_lock = threading.Lock()
 
 def create_headers():
     headers = ["Název potraviny", "Energie (kJ)", "Bílkoviny (g)", "SAFA (g)", "Tuky (g)", "Cukry (g)", "Sacharidy (g)", "Vláknina (g)", "Sůl (g)", "Náhrada (optional)"]
@@ -60,23 +64,25 @@ def get_one_item(url):
     values.append(nahrada_text)
     # Print extracted numbers
 
-    # Open the file in append mode ('a'), ensuring existing data is preserved
-    with open("stobklub_combined.csv", mode="a", newline="", encoding="utf-8-sig") as file:
-        writer = csv.writer(file, delimiter=';')
-        # Append the row of extracted values
-        writer.writerow(values)
+    with file_lock:
+        # Open the file in append mode ('a'), ensuring existing data is preserved
+        with open("stobklub_combined.csv", mode="a", newline="", encoding="utf-8-sig") as file:
+            writer = csv.writer(file, delimiter=';')
+            # Append the row of extracted values
+            writer.writerow(values)
 
     print(f"Data of {foodName} from {url} appended to stobklub_combined.csv ✅")
 
 #(589357, 764630)
 
 def get_items():
-    for i in range(589357, 590357):  # Od 500000 do 700000 (včetně)
-        url_in = f"https://www.stobklub.cz/potravina/{i}/"
-        get_one_item(url_in)
+    with ThreadPoolExecutor(max_workers=10) as executor:  # Limit the number of threads to 10
+        for i in range(590000, 590500):  # Iterate over the range of URLs
+            url_in = f"https://www.stobklub.cz/potravina/{i}/"
+            executor.submit(get_one_item, url_in)
 
 def create_file():
     create_headers()
     get_items()
 
-create_file()
+get_items()
